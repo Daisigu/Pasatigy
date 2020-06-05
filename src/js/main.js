@@ -32,7 +32,7 @@ function loadGoods() {
             out+= '<p class="text-left goods__card-title">'+data[key].name+'</p>'
              
           out+='</div>'
-          out+='<p class="goods__price text-left row pl-4"> 21 490  <span>₽</span>'
+          out+='<p class="goods__price text-left row pl-4">'+data[key].cost+'<span>₽</span>'
           out+='</p>'
         out+= '<button class="goods__buy-button"><i class="fa fa-shopping-cart " aria-hidden="true"></i> Добавить в корзину</button>'
        out+='</div>'
@@ -59,19 +59,23 @@ function addToCart() {
 $('.categories__slider').slick({
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: '<i class="fa fa-angle-right fa-3x categories__right" aria-hidden="true"></i>',
+    prevArrow: '<i class="fa fa-angle-left fa-3x categories__left" aria-hidden="true"></i>'
   });
   $('.brands__slider').slick({
     infinite: true,
     slidesToShow: 5,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: '<i class="fa fa-angle-right fa-3x brands__right" aria-hidden="true"></i>',
+    prevArrow: '<i class="fa fa-angle-left fa-3x brands__left" aria-hidden="true"></i>'
   });
   $('.banner__slider').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    nextArrow: '<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>',
-      prevArrow: '<i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>'
+    nextArrow: '<i class="fa fa-angle-right fa-3x banner__right" aria-hidden="true"></i>',
+      prevArrow: '<i class="fa fa-angle-left fa-3x banner__left" aria-hidden="true"></i>'
   });
       

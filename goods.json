@@ -7,42 +7,42 @@
     },
     "2" :{
         "name" : "Стиральная машина CANDY CS4 1061 D1/2-07",
-        "cost" : 21440,
+        "cost" : 15990,
         "image" : "./src/img/goods-2.jpg"
     },
     "3" :{
         "name" : "Плита электрическая GORENJE EC 5112WG-B",
-        "cost" : 21440,
+        "cost" : 19890,
         "image" : "./src/img/goods-3.jpg"
     },
     
     "4" :{
         "name" : "Стол обеденный Millwood «Лофт М Light»",
-        "cost" : 21440,
+        "cost" : 9990,
         "image" : "./src/img/goods-4.jpg"
     },
     
     "5" :{
         "name" : "Пылесос LG VC53001ENTC",
-        "cost" : 21440,
+        "cost" : 5990,
         "image" : "./src/img/goods-5.jpg"
     },
     
     "6" :{
         "name" : "Диван Динс Textile Beige",
-        "cost" : 21440,
+        "cost" :  24190,
         "image" : "./src/img/goods-6.jpg"
     },
     
     "7" :{
         "name" : "Микроволновая печь BBK 17MWS-781M",
-        "cost" : 21440,
+        "cost" : 2590,
         "image" : "./src/img/goods-7.jpg"
     }
     ,
     "8" :{
         "name" : "Кофемашина DeLonghi ECAM 22.110 B Magnifica",
-        "cost" : 21440,
+        "cost" : 22990,
         "image" : "./src/img/goods-8.jpg"
     }
     

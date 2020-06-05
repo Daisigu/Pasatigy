@@ -281,3 +281,15 @@ margin-bottom: 42px;
 font-size: 100px;
 opacity: 0.8;
 }
+.brands__left{
+    left: -40px;
+}
+.brands__right{
+    right: -40px;
+}
+.categories__left{
+    left: -40px;
+}
+.categories__right{
+    right: -60px;
+}
