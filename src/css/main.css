@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Helvetica Neue Cyr Thin';
-    src: url('HelveticaNeueCyr-Thin.eot');
-    src: url('HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
-    url('HelveticaNeueCyr-Thin.woff') format('woff'),
-    url('HelveticaNeueCyr-Thin.ttf') format('truetype');
+    src: url('/src/font/HelveticaNeueCyr-Thin.ttf');
+    src: url('/src/font/HelveticaNeueCyr-Thin.ttf') format('embedded-opentype'),
+    url('/src/font/HelveticaNeueCyr-Thin.ttf') format('woff'),
+    url('/src/font/HelveticaNeueCyr-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     }
@@ -55,8 +55,9 @@ ul{
 }
 .categories__item{
     position: relative;
- margin-left: 15px;
- margin-right: 15px;
+}
+.categories__list{
+    width: 100%;
 }
 .categories__item img{
     filter: brightness(55%);
@@ -71,4 +72,33 @@ ul{
     text-align: center;
     font-size: 19px;
     font-weight: bold;
+}
+.goods__item{
+    max-width: 255px;
+    border: 2px solid #F2F2F2;
+}
+.goods__card-title{
+    max-width: 178px;
+}
+.goods__price{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.goods__price span{
+    color: black;
+    margin-left: 5px;
+}
+.goods__buy-button{
+    display: block;
+    border:none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-top: 2px solid #F2F2F2;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.goods__title, .categories__title{
+    font-size: 26px;
 }
