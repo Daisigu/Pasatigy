@@ -66,4 +66,12 @@ $('.categories__slider').slick({
     slidesToShow: 5,
     slidesToScroll: 1
   });
+  $('.banner__slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    nextArrow: '<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>',
+      prevArrow: '<i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>'
+  });
       

@@ -10,6 +10,9 @@
 body{
     font-family: 'Helvetica Neue Cyr Thin';
 }
+a:hover{
+    text-decoration: none !important;
+}
 ul{
     list-style: none;
     margin: 0 !important;
@@ -41,34 +44,68 @@ ul{
 }
 .main-nav{
     background-color: #FFD800;
+    
+}
+.main-nav__item{
     padding-top: 17px;
-    padding-bottom: 14px;
+    padding-bottom: 17px;
+}
+.main-nav__item a{
+    color: black;
 }
 .main-nav__item:hover .sub-main-nav__list{
     display: block;
 }
+.sub-main-nav__item:hover .sub-sub-main-nav__list{
+    display: block;
+}
+.sub-main-nav__item:hover a{
+    text-decoration: none;
+    color: black;
+}
 .main-nav__list li{
     position: relative;
 }
-
 .sub-main-nav__list{
-
     display: none;
     min-width: 260px;
     position: absolute;
     left: 0;
-    top: 20px;
-    padding-top: 20px;
-    
+    top: 20px;   
 }
 .sub-main-nav__item{
+    position: relative;
     padding: 20px 0 25px 20px;
     background-color: #fff;
+    z-index: 10;
 }
 .sub-main-nav__item:hover{
     background-color: #F2F2F2;
+    z-index: 6;
 }
 .sub-main-nav__list a{
+    color: black;
+    font-size: 14px;
+    margin-left: 14px;
+}
+.sub-sub-main-nav__list{
+    display: none;
+    min-width: 360px;
+    column-count: 2;
+    column-gap: 0;
+    position: absolute;
+    left: 260px;
+    top: 0px;   
+}
+.sub-sub-main-nav__item{
+    background-color: #fff;
+    padding: 10px;
+}
+.sub-sub-main-nav__item:hover{
+    background-color: #F2F2F2;
+    z-index: 6;
+}
+.sub-sub-main-nav__list a{
     color: black;
     font-size: 14px;
     margin-left: 14px;
@@ -77,10 +114,29 @@ ul{
     font-size: 16px;
 }
 .banner__block{
-    width: 1000px;
+    width: auto;
     margin: 0 auto;
-    height: 500px;
+    height: 350px;
     background-image: url(/src/img/Component\ 1\ –\ 1.jpg);
+    background-repeat: no-repeat;
+   
+}
+.banner__text-wrapper{
+    width: 180px;
+    height: 200px;
+    padding-top: 65px;
+    padding-left: 150px;
+    box-sizing: content-box;
+}
+.banner__text-wrapper h3{
+    font-size: 20px;
+}
+.banner__text-wrapper span{
+    font-size: 50px;
+}
+.banner__img{
+    padding-left: 100px;
+    padding-top: 65px;
 }
 .categories__item{
     position: relative;
@@ -194,4 +250,28 @@ margin-bottom: 42px;
    padding-top: 40px;
    margin-top: 80px;
   border-top: 1px solid #1D1D1D;
+}
+.slick-arrow{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;     
+}
+.fa-angle-right{
+    right: 15px;
+    z-index: 5;
+    cursor: pointer;
+}
+.fa-angle-left{
+    left: 25px;
+    z-index: 5;
+    cursor: pointer;
+}
+.slider .fa{
+font-size: 100px;
+opacity: 0.8;
 }
