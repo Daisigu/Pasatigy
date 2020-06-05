@@ -44,6 +44,33 @@ ul{
     padding-top: 17px;
     padding-bottom: 14px;
 }
+.main-nav__item:hover .sub-main-nav__list{
+    display: block;
+}
+.main-nav__list li{
+    position: relative;
+}
+
+.sub-main-nav__list{
+
+    display: none;
+    min-width: 360px;
+    column-count: 2;
+    column-gap: 0;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    padding-top: 20px;
+    
+}
+.sub-main-nav__item{
+    background-color: #fff;
+}
+.sub-main-nav__list a{
+    color: black;
+    font-size: 14px;
+    margin-left: 14px;
+}
 .main-nav__item{
     font-size: 16px;
 }
