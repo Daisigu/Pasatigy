@@ -58,10 +58,17 @@ ul{
  margin-left: 15px;
  margin-right: 15px;
 }
+.categories__item img{
+    filter: brightness(55%);
+    border-radius: 20px;
+}
 .categories__link{
-    font-size: 19px;
-    color: white;
     position: absolute;
-    top: 42%;
-    left: 40%;
+    left: 0;
+    color: white;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
 }
