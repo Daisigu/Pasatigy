@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Thin';
+    src: url('HelveticaNeueCyr-Thin.eot');
+    src: url('HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNeueCyr-Thin.woff') format('woff'),
+    url('HelveticaNeueCyr-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+body{
+    font-family: 'Helvetica Neue Cyr Thin';
+}
+.header__search{
+    padding: 12px 0px 12px 25px;
+    width: 460px;
+    height: 46px;
+    background-color: #F8F8F8;
+    border: solid 1px #F2F2F2;
+    border-radius: 50px;
+}
+.header__list{
+    list-style: none;
+}
+.list__item{
+    margin-left: 25px;
+}
+.header__link{
+    color: black;
+  
+}
+
+.search-wrapper{
+    position: relative;
+}
+.search-button{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border: none;
+    background-color: #F8F8F8;
+}
