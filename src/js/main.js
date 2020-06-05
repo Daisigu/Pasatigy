@@ -61,9 +61,9 @@ $('.categories__slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1
   });
-  $('.goods__slider').slick({
+  $('.brands__slider').slick({
     infinite: true,
-    slidesToShow: 1,
+    slidesToShow: 5,
     slidesToScroll: 1
   });
       

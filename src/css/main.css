@@ -111,6 +111,11 @@ ul{
     margin: 0 auto;
     background-color: #fff;
 }
-.goods__title, .categories__title{
+.goods__title, .categories__title, .brands__title{
     font-size: 26px;
+}
+.brands{
+    background-color: #F2F2F2;
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
