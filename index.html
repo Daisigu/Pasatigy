@@ -16,7 +16,7 @@
          <div class="container">
             <div class="d-flex row justify-content-between align-items-center">
                <div class="header__logo">
-                  Piramida
+                  <img src="./src/img/logo.png" alt="">
                </div>
                <div class="search-wrapper">
                   <input type="search" placeholder="Поиск по товарам" id="search" class="header__search">
@@ -33,7 +33,24 @@
       <nav class="main-nav">
          <div class="container">
             <ul class="main-nav__list d-flex justify-content-between align-items-center">
-               <li class="main-nav__item">Каталог товаров</li>
+               <li class="main-nav__item">Каталог товаров
+                  <ul class="sub-main-nav__list">
+                     <li>Товары для кухни</li>
+                     <li>Плиты</li>
+                     <li>Микроволновые печи</li>
+                     <li>Электрочайники</li>
+                     <li>Кофеварки</li>
+                     <li>Холодильники</li>
+                     <li>Вытяжки</li>
+                     <li>Духовые шкафы</li>
+                     <li>Товары для дома</li>
+                     <li>Стиральные машины</li>
+                     <li>Сушильные машины</li>
+                     <li>Парогенераторы</li>
+                     <li>Отпариватели</li>
+                     <li>Пылесосы</li>
+                  </ul>
+               </li>
                <li class="main-nav__item">Акции</li>
                <li class="main-nav__item">Блог и новости</li>
                <li class="main-nav__item">Доставка и оплата</li>
@@ -136,11 +153,34 @@
          </div>
       </section>
 
-      <footer class="footer">
-         <div class="container">
-            
+     <section class="number">
+        <div class="container">
+         <div class="row number-wrapper justify-content-between align-items-center">
+            <p>Остались вопросы? Свяжитесь с нами!</p>
+            <p>Пн - Сб: 09:00 - 19:00 | Сб: 09:00 - 17:00 | Вс: Выходной</p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i>
+               +7 (391) 362-47-97</p>
          </div>
-      </footer>
+        </div>
+     </section>
+     <footer class="footer">
+        <div class="container">
+           <ul class="footer__list d-flex">
+              <li class="footer__item">Акции</li>
+              <li class="footer__item">Блог и новости</li>
+              <li class="footer__item">Доставка и оплата</li>
+              <li class="footer__item">О компании</li>
+              <li class="footer__item">Контакты</li>
+              <li class="footer__item">Каталог товаров</li>
+           </ul>
+           <div class="row copyright justify-content-between">
+            <p>© 2020, Piramida.</p>
+            <p>Условия продажи и политика обработки персональных данных</p>
+            <p>Разработка сайта: GetRevol</p>
+        </div>
+        </div>
+     </footer>
+  
       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="./src/js/slick-1.8.1/slick/slick.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
