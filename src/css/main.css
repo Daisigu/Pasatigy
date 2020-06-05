@@ -47,8 +47,13 @@ ul{
     
 }
 .main-nav__item{
-    padding-top: 17px;
-    padding-bottom: 17px;
+  padding: 17px;
+}
+.main-nav__item:hover{
+    background-color: #FFCE00;
+}
+.main-nav__item:hover a{
+    color: black;
 }
 .main-nav__item a{
     color: black;
@@ -71,7 +76,8 @@ ul{
     min-width: 260px;
     position: absolute;
     left: 0;
-    top: 20px;   
+    top: 60px;   
+    padding-top: 60px;
 }
 .sub-main-nav__item{
     position: relative;
