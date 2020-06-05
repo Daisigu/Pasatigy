@@ -54,9 +54,7 @@ ul{
 .sub-main-nav__list{
 
     display: none;
-    min-width: 360px;
-    column-count: 2;
-    column-gap: 0;
+    min-width: 260px;
     position: absolute;
     left: 0;
     top: 20px;
@@ -64,7 +62,11 @@ ul{
     
 }
 .sub-main-nav__item{
+    padding: 20px 0 25px 20px;
     background-color: #fff;
+}
+.sub-main-nav__item:hover{
+    background-color: #F2F2F2;
 }
 .sub-main-nav__list a{
     color: black;

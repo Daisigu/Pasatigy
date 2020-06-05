@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="31.2" viewBox="0 0 26 31.2">
+  <g id="household" transform="translate(-40)">
+    <g id="Group_28" data-name="Group 28" transform="translate(40)">
+      <g id="Group_27" data-name="Group 27" transform="translate(0)">
+        <path id="Path_38" data-name="Path 38" d="M105.26,146.687a9.36,9.36,0,1,0-8.542-5.523A9.36,9.36,0,0,0,105.26,146.687ZM97.67,133.915a8.32,8.32,0,1,1,4.177,11A8.32,8.32,0,0,1,97.67,133.915Z" transform="translate(-92.26 -119.647)" fill="#ff7f00"/>
+        <path id="Path_39" data-name="Path 39" d="M64.44,0H41.56A1.56,1.56,0,0,0,40,1.56V29.64a1.56,1.56,0,0,0,1.56,1.56H64.44A1.56,1.56,0,0,0,66,29.64V1.56A1.56,1.56,0,0,0,64.44,0Zm.52,29.64a.52.52,0,0,1-.52.52H41.56a.52.52,0,0,1-.52-.52v-.52H64.96Zm0-1.56H41.04V7.28H64.96Zm0-21.84H41.04V1.56a.52.52,0,0,1,.52-.52H64.44a.52.52,0,0,1,.52.52Z" transform="translate(-40)" fill="#ff7f00"/>
+        <path id="Path_41" data-name="Path 41" d="M161.04,197.2a4.165,4.165,0,0,1,4.16-4.16.52.52,0,0,0,0-1.04,5.206,5.206,0,0,0-5.2,5.2.52.52,0,1,0,1.04,0Z" transform="translate(-152.2 -179.52)" fill="#ff7f00"/>
+        <path id="Path_47" data-name="Path 47" d="M362.6,64h-2.08a.52.52,0,0,0,0,1.04h2.08a.52.52,0,0,0,0-1.04Z" transform="translate(-357.2 -60.84)" fill="#ff7f00"/>
+        <path id="Path_49" data-name="Path 49" d="M73.214,24a1.214,1.214,0,1,0,1.214,1.214A1.214,1.214,0,0,0,73.214,24Zm0,1.821a.607.607,0,1,1,.607-.607A.607.607,0,0,1,73.214,25.821Z" transform="translate(-51.188 -21.748)" fill="#ff7f00"/>
+      </g>
+    </g>
+  </g>
+</svg>
