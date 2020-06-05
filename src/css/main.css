@@ -55,6 +55,7 @@ ul{
 }
 .categories__item{
     position: relative;
+    margin: 15px;
 }
 .categories__list{
     width: 100%;
@@ -74,7 +75,8 @@ ul{
     font-weight: bold;
 }
 .goods__item{
-    max-width: 255px;
+    width: 240px;
+    margin-bottom: 30px;
     border: 2px solid #F2F2F2;
 }
 .goods__img{
@@ -84,10 +86,11 @@ ul{
     height: 200px;
 }
 .goods__card-title{
-    max-width: 178px;
+    max-width: 200px;
+    height: 48px;
 }
-.goods__slider{
-    flex-wrap: wrap;
+.goods__wrapper{
+   flex-wrap: wrap;
 }
 .goods__price{
     color: red;

@@ -3,14 +3,16 @@ var cart = {}; //моя корзина
 
 $('document').ready(function(){
     loadGoods();
+          
 });
 function loadGoods() {
     //загружаю товары на страницу
+    
     $.getJSON('goods.json', function (data) {
         //console.log(data);
         var out = '';
         for (var key in data){
-            out+= '<div id="goods__item" class="goods__item col-3">'
+            out+= '<div id="goods__item" class="goods__item">'
             out+='<img class="goods__img pt-3"src="'+data[key].image+'">';
              out+='<div class="pl-4 pt-4 row align-items-center justify-content-start">'
              out+='<ul class="d-flex justify-content-start">'
@@ -56,12 +58,12 @@ function addToCart() {
 }
 $('.categories__slider').slick({
     infinite: true,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1
   });
   $('.goods__slider').slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1
   });
       

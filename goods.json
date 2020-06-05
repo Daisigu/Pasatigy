@@ -11,37 +11,37 @@
         "image" : "./src/img/goods-2.jpg"
     },
     "3" :{
-        "name" : "Стиральная машина CANDY CS4 1061 D1/2-07",
+        "name" : "Плита электрическая GORENJE EC 5112WG-B",
         "cost" : 21440,
         "image" : "./src/img/goods-3.jpg"
     },
     
     "4" :{
-        "name" : "Стиральная машина CANDY CS4 1061 D1/2-07",
+        "name" : "Стол обеденный Millwood «Лофт М Light»",
         "cost" : 21440,
         "image" : "./src/img/goods-4.jpg"
     },
     
     "5" :{
-        "name" : "Стиральная машина CANDY CS4 1061 D1/2-07",
+        "name" : "Пылесос LG VC53001ENTC",
         "cost" : 21440,
         "image" : "./src/img/goods-5.jpg"
     },
     
     "6" :{
-        "name" : "Стиральная машина CANDY CS4 1061 D1/2-07",
+        "name" : "Диван Динс Textile Beige",
         "cost" : 21440,
         "image" : "./src/img/goods-6.jpg"
     },
     
     "7" :{
-        "name" : "Стиральная машина CANDY CS4 1061 D1/2-07",
+        "name" : "Микроволновая печь BBK 17MWS-781M",
         "cost" : 21440,
         "image" : "./src/img/goods-7.jpg"
     }
     ,
     "8" :{
-        "name" : "Стиральная машина CANDY CS4 1061 D1/2-07",
+        "name" : "Кофемашина DeLonghi ECAM 22.110 B Magnifica",
         "cost" : 21440,
         "image" : "./src/img/goods-8.jpg"
     }
