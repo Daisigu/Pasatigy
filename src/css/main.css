@@ -77,8 +77,17 @@ ul{
     max-width: 255px;
     border: 2px solid #F2F2F2;
 }
+.goods__img{
+    width: 219px;
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
 .goods__card-title{
     max-width: 178px;
+}
+.goods__slider{
+    flex-wrap: wrap;
 }
 .goods__price{
     color: red;

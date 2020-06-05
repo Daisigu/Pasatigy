@@ -5,6 +5,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="build/css/style.min.css">
+   <link rel="stylesheet" type="text/css" href="./src/js/slick-1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="./src/js/slick-1.8.1/slick/slick-theme.css"/>
    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    
@@ -53,7 +55,7 @@
          <div class="container">
             <h3 class="categories__title pb-4">Категории</h3>
             <div class="d-flex">
-               <ul class="categories__list d-flex justify-content-between">
+               <ul class="categories__list d-flex justify-content-between categories__slider">
                   <li class="categories__item"><img src="./src/img/categories-1.jpg" alt=""><div class="link-wrapper"><a href="" class="categories__link">Электроника</a></div></li>
                   <li class="categories__item"><img src="./src/img/categories-2.jpg" alt=""><div class="link-wrapper"><a href="" class="categories__link">Бытовая техника</a></div></li>
                   <li class="categories__item"><img src="./src/img/categories-3.jpg" alt=""><div class="link-wrapper"><a href="" class="categories__link">Мебель</a></div></li>
@@ -63,11 +65,11 @@
             </div>
          </div>
       </section>
-      <section class="goods pt-4 pb-4">
+   <section class="goods pt-4 pb-4">
          <div class="container">
             <h3 class="goods__title pb-4">Популярные товары</h3>
-         
-               <div id="goods__item" class="goods__item col-3">
+            <div id="goods" class="d-flex justify-content-between goods__slider"></div>
+        <!--      <div id="goods__item" class="goods__item col-3">
                   <img src="./src/img/goods-1.jpg" alt="">
                   <div class="pl-4 pt-4 row align-items-center justify-content-start">
                   <ul class="d-flex justify-content-start">
@@ -92,9 +94,14 @@
                   21 490  <span>₽</span>
                </p>
               <button class="goods__buy-button"><i class="fa fa-shopping-cart " aria-hidden="true"></i> Добавить в корзину</button>
-            </div>
+            </div> -->
          </div>
       </section>
+
+
+
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="./src/js/slick-1.8.1/slick/slick.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
    <script src="build/js/main.min.js"></script>
 </body>
