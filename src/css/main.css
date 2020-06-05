@@ -114,8 +114,27 @@ ul{
 .goods__title, .categories__title, .brands__title{
     font-size: 26px;
 }
+.news__item h4{
+    font-size: 20px;
+    width: 190px;
+    height: 70px;  
+    margin: 37px 0px 21px 25px;
+}
+.news__item p{
+    margin-left: 25px;
+}
+.news__item{
+    margin-left: 30px;
+}
 .brands{
     background-color: #F2F2F2;
     padding-top: 85px;
     padding-bottom: 85px;
+}
+.news{
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.fa-arrow-right{
+    color: red;
 }
